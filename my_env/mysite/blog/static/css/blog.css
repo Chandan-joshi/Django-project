@@ -1,0 +1,13 @@
+body{
+    font-family: Arial;
+    background-color: rgb(99, 90, 78);
+    text-align: center;
+}
+h1{
+    color: darkblue;
+}
+#sidebar{
+    background-color:rgb(28, 92, 81) ;
+    padding: 10px;
+    text-align: center;
+}
