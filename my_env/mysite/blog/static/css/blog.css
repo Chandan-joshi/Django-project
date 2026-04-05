@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: lightblue;
+    background: #061E29;
     /* justify-content: center; */
     min-height: 100vh;
     text-align: center ;
@@ -42,21 +43,21 @@ body {
 }
 
 #sidebar {
-    background-color:wheat;
+    background-color:#5F9598 ;
     width: 500px;
     padding: 25px;
     margin: auto;
     border-radius: 50px;
     text-align: center;
     margin-bottom: 30px;
-    border: 30px solid rgba(17, 74, 121, 0.993);
+    border: 30px solid #1d546d;
 }
 #content{
-    background: #8c8f8b;
+    background: #5F9598;
     padding: 60px;
     border-radius: 30px;
     margin: auto;
-    border: 20px solid #777577;
+    border: 20px solid #1D546D;
     width: 500px;
     margin-bottom: 30px;
 }
