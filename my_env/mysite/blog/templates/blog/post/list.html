@@ -1,6 +1,6 @@
 
 {% extends "blog/base.html" %}
-
+{% load blog_tags %}
 {% block title %}Posts{% endblock %}
 
 {% block content %}
@@ -20,7 +20,7 @@
         </p>
         <p  class="tags">Tags:{{post.tags.all|join:","}}</p>
         <p class="date">Published {{ post.publish }} by {{ post.author }}</p>
-        <p>{{ post.body|truncatewords:30|linebreaks }}</p>
+        <p>{{ post.body|markdown|truncatewords_html:70|safe }}</p>
     {% endfor %}   
     {% include "pagination.html" with page=posts %} 
 {% endblock %}
